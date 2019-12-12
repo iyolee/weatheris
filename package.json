@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "ts-node": "^8.5.4",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.3"
+  },
+  "dependencies": {
+    "@types/node": "^12.12.17",
+    "colors": "^1.4.0",
+    "commander": "^4.0.1"
+  }
+}
