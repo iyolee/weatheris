@@ -1,13 +1,31 @@
 {
-  "devDependencies": {
-    "ts-node": "^8.5.4",
-    "tslint": "^5.20.1",
-    "typescript": "^3.7.3"
+  "name": "weatheris",
+  "version": "0.0.1",
+  "description": "weather",
+  "main": "index.js",
+  "bin": {
+    "weatheris": "bin/weatheris.js"
   },
   "dependencies": {
-    "@types/node": "^12.12.17",
-    "axios": "^0.19.0",
-    "colors": "^1.4.0",
-    "commander": "^4.0.1"
-  }
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "ora": "^4.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iyolee/weatheris.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iyolee/weatheris/issues"
+  },
+  "homepage": "https://github.com/iyolee/weatheris#readme"
 }
