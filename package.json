@@ -19,7 +19,7 @@
   },
   "scripts": {
     "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "patch": "npm version patch && npm run log && && npm publish",
+    "patch": "npm version patch && npm run log && npm publish",
     "minor": "npm version minor && npm run log && npm publish",
     "major": "npm version major && npm run log && npm publish"
   },
