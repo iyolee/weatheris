@@ -1,6 +1,6 @@
 {
   "name": "weatheris",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "weather",
   "main": "index.js",
   "bin": {
