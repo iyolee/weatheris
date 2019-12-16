@@ -12,14 +12,28 @@
   "devDependencies": {
     "chalk": "^3.0.0",
     "commander": "^4.0.1",
-    "ora": "^4.0.3"
+    "conventional-changelog-cli": "^2.0.31",
+    "husky": "^3.1.0",
+    "ora": "^4.0.3",
+    "validate-commit-msg": "^2.14.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "log": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
+    "patch": "npm version patch && npm run log && && npm publish",
+    "minor": "npm version minor && npm run log && npm publish",
+    "major": "npm version major && npm run log && npm publish"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/iyolee/weatheris.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "validate-commit-msg"
+    }
   },
   "keywords": [],
   "author": "",
