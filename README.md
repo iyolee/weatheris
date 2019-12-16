@@ -22,7 +22,7 @@ Options:
 - -h, --help              output usage information
 
 ### CHANGELOG
-[CHANGELOG](./CHANGELOG)
+[CHANGELOG](./CHANGELOG.md)
 
 ### Licence
 MIT
